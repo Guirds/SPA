@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+  font-weight: 800;
+}
+
+html {
+  text-rendering: optimizeLegibility !important;
+  -webkit-font-smoothing: antialiased !important;
+
+  flex: 1;
+  background-color: #f2f2f2;
+}
+
+/*Vai controlar todo o body, e divi-lo tbm*/
+body {
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-bottom: 90%;
+  border: 1px solid red;
+  flex: 1px;
+
+  font-family: "Nunito", sans-serif;
+}
+
+@-ms-viewport {
+  width: device-width;
+}
