@@ -1,9 +1,6 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-  font-weight: 800;
-  font-size: 12px;
-  line-height: 16px;
   letter-spacing: 3px;
   font-weight: bold;
 
@@ -11,35 +8,37 @@ export const Container = styled.div`
   margin-top: 15%;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
   flex: 1;
 
-  a {
-    text-decoration-line: none;
-    letter-spacing: 3px;
+  h1 {
+    font-size: 26px;
+    line-height: 36px;
+    text-align: center;
+  }
+
+  h2 {
+    font-size: 26px;
     color: #007fff;
+    line-height: 36px;
+    display: inline;
+  }
+  img {
+    margin-bottom: 15%;
+    border-radius: 50%;
+    width: 62px;
+    height: 62px;
   }
 `;
-/*
-img {
-  border-radius: 50%;
-  width: 62px;
-  height: 62px;
-}
 
-h1 {
-  margin-top: 10%;
-
-  font-weight: bold;
-  font-size: 28px;
-  line-height: 36px;
-
-  align-items: center;
-  justify-content: flex-end;
-}
-
-/*header#main-header a {
+export const Icons = styled.section`
   display: flex;
+  margin-top: 15%;
   align-items: center;
-  flex-direction: row;
-  justify-content: space-between;
-} */
+  justify-content: center;
+  flex: 1;
+
+  img {
+    margin-left: 30px;
+  }
+`;
