@@ -55,11 +55,12 @@ export const Text = styled.div`
     width: 83px;
     height: 23px;
 
+    display: flex;
     margin-top: ${props => `${props.marginTop}%`};
     margin-left: 28px;
+    margin-bottom: 10%;
     font-size: 14px;
     line-height: 16px;
-    display: flex;
     align-items: center;
     justify-content: center;
 

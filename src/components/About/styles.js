@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const Container = styled.div`
   font-size: 16px;
   line-height: 30px;
-  height: 120px;
+  height: auto;
   width: 273px;
   flex: 1;
 `;
