@@ -16,6 +16,7 @@ export const Container = styled.div`
     line-height: 30px;
   }
   img {
+    margin-top: 8%;
     margin-right: 30px;
     margin-bottom: 15%;
   }

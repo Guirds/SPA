@@ -6,6 +6,7 @@ export const Container = styled.div`
   display: flex;
   flex-direction: column;
   align-content: center;
+  justify-content: center;
   flex: 1;
 
   color: #ffffff;
@@ -14,9 +15,6 @@ export const Container = styled.div`
   h1 {
     text-align: center;
     height: 16px;
-    left: 41.87%;
-    right: 41.6%;
-    top: calc(50% - 16px / 2 - 1805px);
 
     font-weight: 800;
     font-size: 16px;

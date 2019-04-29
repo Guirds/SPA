@@ -41,10 +41,5 @@ export const RedeSocial = styled.div`
   display: flex;
   margin-top: 15%;
   align-items: center;
-  justify-content: center;
-  flex: 1;
-
-  img {
-    margin-right: 28px;
-  }
+  justify-content: space-between;
 `;

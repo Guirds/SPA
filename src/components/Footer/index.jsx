@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Container, Text, Submit } from './styles';
+import { Container, Text } from './styles';
 
 const Footer = () => (
   <div>

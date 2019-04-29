@@ -24,9 +24,3 @@ export const Container = styled.div`
 `;
 
 export const Text = styled(Container)``;
-export const Submit = styled.div`
-  img {
-    background: red;
-    width: 20%;
-  }
-`;

@@ -31,14 +31,15 @@ export const Container = styled.div`
   }
 `;
 
+export const Nav = styled.div`
+  display: flex;
+  position: absolute;
+  margin-top: 5%;
+`;
+
 export const Icons = styled.section`
   display: flex;
   margin-top: 15%;
   align-items: center;
-  justify-content: center;
-  flex: 1;
-
-  img {
-    margin-left: 30px;
-  }
+  justify-content: space-around;
 `;
