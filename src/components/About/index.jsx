@@ -41,7 +41,7 @@ const About = () => (
         </p>
       </Text>
       <RedeSocial>
-        <img src="../../../images/google.png" />
+        <img src="../../../images/Google.png" />
         <img src="../../../images/Airbnb.png" />
         <img src="../../../images/Dropbox.png" />
       </RedeSocial>

@@ -10,6 +10,9 @@ export const Container = styled.div`
   justify-content: center;
   flex-direction: column;
   flex: 1;
+  @media screen (max-width: 700px) {
+    background: red;
+  }
 
   h1 {
     font-size: 26px;
